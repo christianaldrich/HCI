@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/css/contactus.css">
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+          <h1 class ="title">MTGraphy</h1>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="subscribe.html">Subscribe</a></li>
+          </ul>
+        </nav>
+      </div>
+      <section class="headquarter">
+      
+        <div class="leftimg">
+            <div class="hq-content">
+                <div class="hq-content-overlay"></div>
+                <img class="hq-content-image" src="/assets/kyle-sudu-PVKn9G3XICQ-unsplash.jpg">
+                <div class="hq-content-details fadeIn-bottom">
+                  <h1>Our Headquarter</h1>
+                  <p class="hq-content-text">Kebayoran Baru Street 45, South Jakarta, Jakarta, Indonesia, 12345</p>
+                </div>
+              </a>
+            </div>
+        </div>
+
+        <div class="rightimg">
+          <div class="br-content">
+              <div class="br-content-overlay"></div>
+              <img class="br-content-image" src="/assets/office.jpg">
+              <div class="br-content-details fadeIn-top">
+                <h1>Our Headquarter</h1>
+                <p class="br-content-text">
+                  <li>Taman Sari Street 22, Bandung, West Java, Indonesia, 40116</li>
+                  <li>Mayjen Sutoyo South Street 87, Medan, North Sumatera, 20111</li>
+                  <li>Boulevard Raya Street 98, North Jakarta, Jakarta, Indonesia, 14222</li>
+                  <li>Kartini Street 105, Cirebon, West Java, Indonesia, 43283</li>
+                  <li>Jendral Ahmad Yani Street 27, Bandung, West Java, Indonesia, 40125</li>
+                </p>
+              </div>
+            </a>
+          </div>
+      </div>
+      </section>
+
+      <section class="sosmed">
+        <div class="kotak">
+          <div class="insta">
+            <img src="/assets/insta.png" alt="">
+            <p>Follow Us on Instagram to See Our Best Photography<br><span>@mtgraphy_</span></p>
+            <div class="btn-container"><div class="icon"><a href="https://www.instagram.com/"><img class="icon" src="/assets/instagram.png" alt=""></a></div></div>       
+          </div>
+        </div>
+
+        <div class="kotak">
+          <div class="facebook">
+            <img src="/assets/facebuk.png" alt="">
+            <p>Check Us on Facebook to Get Our Latest News ! <br><span>MTgraphy Service</span></p>
+            <div class="btn-container">
+              <div class="icon"><a href="https://www.facebook.com/"><img src="/assets/facebook.png" alt=""></a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="kotak">
+          <div class="gmail">
+            <img src="/assets/gmail.png" alt="">
+            <p>Send Us Your Best Photography and We'll Put It on Our Gallery !<br><span>mt_graphy@gmail.com</span></p>
+            <div class="btn-container">
+              <div class="icon"><a href="https://www.gmail.com/"><img src="/assets/gmail1.png" alt=""></a></div>
+            </div>      
+          </div>
+        </div>
+
+      </section>
+
+      <div class="csrb-title">
+        <h1>How can you contact us?</h1>
+        <h3>We'd love to hear anything from you!</h3>
+      </div>
+
+      <section class="CSRB">
+       
+        <div class="csrb-box">
+          <div class="csrb-content">
+            <h3>Customer Service</h3>
+            <hr>
+              <p>
+                Our team is ready 24/7 <br>
+                to answer all of <br>
+                your questions! <br>
+                So don't be shy and <br>
+                come talk to us ! <br>
+                
+            </p>
+            <a href="contactus.html"><button>Let's Talk !</button></a>
+          </div>
+        </div>
+
+        <div class="csrb-box">
+          <div class="csrb-content">
+            <h3>Ready to Book?</h3>
+            <hr>
+                <p>
+                    Register your booking<br> 
+                    and don't forget <br>
+                    to give us a 5 <br> 
+                    star rating on Layp Store <br> 
+                    also Ppa Store !
+                </p>
+              <a href="subscribe.html"><button> Book Now !</button></a>
+          </div>
+        </div>
+
+      </section>
+      
+      <footer>
+        <div class="footer_RU">
+          <h3 class="RU">Reach Us</h3>
+            <div class="info-content">
+                <div class="details">
+                  <img class="locc" src="/assets/loc_icon.png" alt="">
+                  <p>Kebayoran Baru Street 45, <br>South Jakarta, Jakarta, Indonesia, 12345</p>
+                </div>   
+                <div class="details">
+                  <img class="igg" src="/assets/ig_icon.png" alt="">
+                  <p>@mtgraphy_</p>
+                </div>
+                <div class="details">
+                    <img class="emaill" src="/assets/email_icon.png" alt="">
+                    <p>mt_graphy@gmail.com</p>
+                  </div>
+            </div>
+        </div>
+
+        <div class="footer_FU">
+          <h3 class="FU" >Follow Us</h3>
+          <div class="info-content">   
+            <div class="details">
+              <img class="tell" src="/assets/telephone_icon.png" alt="">
+              <p>+62-857-555-294</p>
+            </div>
+            <div class="details">
+              <img class="face" src="/assets/facebook_icon.png" alt="">
+              <p>MTgraphy Service</p>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="footer_mtgraphy">
+        <h1 class="footh1" >MTgraphy</h1>
+        <h4 class="footh4">Capture your every moment</h4>
+        </div>
+      </footer>
+</body>
+</html>
