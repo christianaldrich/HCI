@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+    <link rel="stylesheet" href="/css/subscribecss.css">
+    <script defer src="subscribe.js"></script>
+</head>
+<body>
+
+    <div class="navbar">
+        <nav>
+          <h1 class ="title">MTGraphy</h1>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="subscribe.html">Subscribe</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      
+      <section class="regis">
+        <div class="container">
+            <div class="kepala">
+                <h3>Registration Form</h3>
+            </div>
+            <form class="form" id="form">
+                <div class="formm">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="John Doe" id="username">
+                    <small>Error message</small>
+                </div> 
+                <div class="formm">
+                    <label>Email</label>
+                    <input type="email" placeholder="Johndoe@gmail.com" id="email">
+                    <small>Error message</small>
+                </div>
+                <div class="formm">
+                    <label>Password</label>
+                    <input type="password" placeholder="Insert Password" id="password">
+                    <small>Error message</small>
+                </div>
+                <div class="formm">
+                    <label>Confirm Password</label>
+                    <input type="password" placeholder="Insert Password Confirmation" id="passwordc">
+                    <small>Error message</small>
+                </div>
+                <div class="formm">
+                    <label>Telephone Number</label>
+                    <input type="text" placeholder="08xxxxx" id="telp">
+                    <small>Error message</small>
+                </div>
+                <div class="formm">
+                    <label>Gender</label>
+                    <div class="checkInput">
+                      <label for="male">Male</label><input type="radio" id="male" name="gender">
+                    </div>
+    
+                    <div class="checkInput">
+                      <label for="female">Female</label><input type="radio" id="female" name="gender">
+                    </div>
+                </div>
+
+                <div class="formm">
+                    <label>Age</label>
+                    <input type="number" placeholder="--" id="age">
+                    <small>Error message</small>
+                </div>
+                <button class="submitbtn">Submit</button>
+            </form>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer_RU">
+          <h3 class="RU">Reach Us</h3>
+            <div class="info-content">
+                <div class="details">
+                  <img class="locc" src="/assets/loc_icon.png" alt="">
+                  <p>Kebayoran Baru Street 45, <br>South Jakarta, Jakarta, Indonesia, 12345</p>
+                </div>   
+                <div class="details">
+                  <img class="igg" src="/assets/ig_icon.png" alt="">
+                  <p>@mtgraphy_</p>
+                </div>
+                <div class="details">
+                    <img class="emaill" src="/assets/email_icon.png" alt="">
+                    <p>mt_graphy@gmail.com</p>
+                  </div>
+            </div>
+        </div>
+
+        <div class="footer_FU">
+          <h3 class="FU" >Follow Us</h3>
+          <div class="info-content">   
+            <div class="details">
+              <img class="tell" src="/assets/telephone_icon.png" alt="">
+              <p>+62-857-555-294</p>
+            </div>
+            <div class="details">
+              <img class="face" src="/assets/facebook_icon.png" alt="">
+              <p>MTgraphy Service</p>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="footer_mtgraphy">
+        <h1 class="footh1" >MTgraphy</h1>
+        <h4 class="footh4">Capture your every moment</h4>
+        </div>
+      </footer>
+    
+</body>
+</html>
