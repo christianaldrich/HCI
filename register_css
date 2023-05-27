@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Joan', serif;
+}
+
+.navbar {
+    width: 100%;
+    /* background: #DAD299;
+    background: linear-gradient(to right, #B0DAB9, #DAD299); */
+    background: #588157;
+    color: #f6f2e4;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    font-size: 20px;
+}
+
+nav ul li {
+
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+
+nav ul li a {
+    color: #f6f2e4;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #a3b18a;
+    transition: .3s ease;
+}
+
+.title {
+
+    padding: 1%;
+    font-weight: 500;
+    font-size: 70px;
+    letter-spacing: 0.7px;
+    cursor: pointer;
+    margin-left: 1px;
+    text-decoration: none;
+}
+
+/* navbar */
+
+body {
+    background-color: #f6f2e4;
+}
+
+.main h1{
+    font-size: 55px;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+hr{
+    background-color: rgba(0, 0, 0, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    margin-left: 3.25%;
+    margin-right: 3.25%;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 25rem;
+    background: #B0DAB9;
+    display: flex;
+    padding: 5rem;
+}
+
+footer h3 {
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 52px;
+    position: relative;
+}
+
+footer h3:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    border-width: 0 0 1px;
+    background-color: rgba(0, 0, 0, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.RU::after {
+    width: 30%;
+}
+
+.FU::after {
+    width: 30%;
+}
+
+footer img {
+    width: 35px;
+    height: 35px;
+    margin-right: 0.5rem;
+}
+
+.footer_RU {
+    width: 33%;
+}
+
+.footer_FU {
+    width: 33%;
+}
+
+.footer_mtgraphy {
+    width: 33%;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.details {
+    display: flex;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+
+.info-content {
+    margin-top: 0.5rem;
+}
+
+.footh1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 97px;
+}
+
+.footh4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* subscribe */
+
+.regis {
+    background-color: #f6f2e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    overflow: hidden;
+    max-width: 100%;
+    /* position: absolute; */
+}
+
+.kepala{
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.kepala h3{
+    margin: 0;
+}
+
+.form{
+    padding: 30px 40px;
+}
+
+.formm{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.formm label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.formm input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.formm.success input{
+    border-color: #2ecc71;
+
+}
+
+.formm.error input{
+    border-color: #e74c3c;
+    
+}
+
+.formm small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.formm.error small{
+    visibility: visible;
+    color:#e74c3c;
+}
+
+.form button {
+    /* background-color: red; */
+    background-color: #a3b18a;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.submitbtn:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    background-color: #344e41;
+    
+}
+
+.checkInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0;
+}
+
+.checkInput label{
+    margin: 0;
+    width: 30%;
+}
+
+
