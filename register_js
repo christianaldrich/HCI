@@ -1,0 +1,81 @@
+let form = document.getElementById('form')
+let username = document.getElementById('username')
+let email = document.getElementById('email')
+let password = document.getElementById('password')
+let passwordc = document.getElementById('passwordc')
+let telephone = document.getElementById('telp')
+let age = document.getElementById('age')
+let male = document.getElementById('male').checked
+let female = document.getElementById('female').checked
+
+
+form.addEventListener('submit', (e)=>{
+    e.preventDefault();
+    checkinputs();
+});
+
+function checkinputs(){
+
+    let userValue = username.value.trim();
+    let emailValue = email.value.trim();
+    let passwordValue = password.value.trim();
+    let passwordcValue = passwordc.value.trim();
+    let telpValue = telephone.value.trim();
+    let ageValue = age.value;
+    
+
+    
+    if(userValue.length < 5 || userValue.length > 50 || userValue === ''){
+        errorFunc(username, 'The length must be between 5 and 50 characters !')
+
+    }else{
+        successFunc(username)
+    }
+
+    if(emailValue === '' || !emailValue.endsWith('@gmail.com')){
+        errorFunc(email, 'Email must ends with @gmail.com!')
+    }else{
+        successFunc(email)
+    }
+
+    if(passwordValue === '' || passwordValue.length < 8){
+        errorFunc(password,'Password length must be over 8 characters !')
+    }else{
+        successFunc(password)
+    }
+
+    if(passwordcValue === '' || (passwordcValue != passwordValue)){
+        errorFunc(passwordc,'Password and Confirm Password must be equal !')
+    }else{
+        successFunc(passwordc)
+    }
+
+    if( telpValue === '' || telpValue.length < 10){
+        errorFunc(telp,'Telephone number length must be over 10 characters !')
+    }else{
+        successFunc(telp)
+    }
+
+    if(ageValue < 17 || ageValue > 100){
+        errorFunc(age,'Age must between 17 and 100 !')
+    }else{
+        successFunc(age)
+    }
+
+    form.reset();
+}
+
+function errorFunc(input, errMessage){
+    let formC = input.parentElement
+    let small = formC.querySelector('small')
+
+    small.innerText = errMessage
+
+    formC.className = 'formm error'
+}
+
+function successFunc(input){
+    let formC = input.parentElement
+
+    formC.className = 'formm success'
+}
